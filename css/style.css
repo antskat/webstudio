@@ -235,11 +235,11 @@ h2 {
   letter-spacing: 0.42px;
 }
 ul.ul1 {
-  margin: 0; /* Обнуляем значение отступов */
-  padding: 4px; /* Значение полей */
+  margin: 0; 
+  padding: 4px; 
 }
 ul.ul1 li {
   display: inline; 
-  margin-right: 5px;
+  margin-right: 0px;
   padding: 3px;
 }
