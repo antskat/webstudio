@@ -240,6 +240,15 @@ ul.ul1 {
 }
 ul.ul1 li {
   display: inline; 
-  margin-right: 0px;
+  margin-right: 5px;
+  padding: 3px;
+}
+ul.ul2 {
+  margin: 0; 
+  padding: 4px; 
+}
+ul.ul2 li {
+  display: inline; 
+  margin-right: 5px;
   padding: 3px;
 }
