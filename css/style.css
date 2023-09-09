@@ -1,5 +1,10 @@
 @import url("https://fonts.cdnfonts.com/css/roboto");
 @import url("https://fonts.cdnfonts.com/css/raleway-5");
+header{
+  width: 1600px;
+max-height: 80px;
+flex-shrink: 0;
+}
 .web {
   color: #2196f3;
   font-family: Raleway;
@@ -79,7 +84,7 @@ a {
   letter-spacing: 0.28px;
 }
 .section {
-  width: 1600px;
+  width: 98.7vw;
   height: 600px;
   flex-shrink: 0;
   background: #2f303a;
@@ -234,7 +239,7 @@ ul.ul1 {
   padding: 4px; /* Значение полей */
 }
 ul.ul1 li {
-  display: inline; /* Отображать как строчный элемент */
-  margin-right: 5px; /* Отступ слева */
-  padding: 3px; /* Поля вокруг текста */
+  display: inline; 
+  margin-right: 5px;
+  padding: 3px;
 }
