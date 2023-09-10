@@ -1,7 +1,7 @@
 :root{
   --accent-color: #2196F3;
-  --main-color: #2F303A;
-  --text-color-1: #212121;
+  --main-bg-color: #2F303A;
+  --main-text-color: #212121;
   --text-color-2: #757575;
 }
 /* @import url("https://fonts.cdnfonts.com/css/roboto");
