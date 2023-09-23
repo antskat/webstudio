@@ -4,9 +4,9 @@
   --main-text-color: #212121;
   --text-color-2: #757575;
 }
-/* @import url("https://fonts.cdnfonts.com/css/roboto");
-@import url("https://fonts.cdnfonts.com/css/raleway-5");
-header{
+ @import url("https://fonts.cdnfonts.com/css/roboto");
+@import url("https://fonts.cdnfonts.com/css/raleway-5"); 
+/* header{
   width: 1600px;
 max-height: 80px;
 flex-shrink: 0;
