@@ -100,7 +100,7 @@ body {
   letter-spacing: 0.42px;
   transition: 0.5s;
 }
-#real-address {
+.address-url:first-child {
   color: #fff;
 }
 /*
