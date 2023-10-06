@@ -13,42 +13,36 @@ a {
 body {
   font-family: "Roboto";
 }
-.web {
+.accent-logo {
   color: var(--accent-color);
   font-family: Raleway;
   font-size: 26px;
   letter-spacing: 0.78px;
 }
-.studio {
+.logo {
   font-family: Raleway;
   font-size: 26px;
   letter-spacing: 0.78px;
 }
-.list-item1,
-.list-item2,
-.list-item3,
-.list-item4,
-.list-item5 {
+.nav-item-link,
+.list-item-link {
   color: var(--accent-color);
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.28px;
 }
-.list-item2,
-.list-item3 {
+.nav-ul:nth-child(2){
   color: var(--main-text-color);
 }
-.list-item4,
-.list-item5 {
+.contacts-list > li > a{
   color: var(--text-color-2);
   transition: all 0.5s ease;
 }
-.list-item4:hover,
-.list-item5:hover {
+.contacts-list:hover{
   color: var(--accent-color);
 }
 
-.first-section-title {
+.hero-section-title {
   color: #fff;
   text-align: center;
   font-family: Roboto;
@@ -58,7 +52,7 @@ body {
   letter-spacing: 2.64px;
   text-transform: uppercase;
 }
-.first-section-buybtn {
+.hero-section-buybtn {
   padding: 10px 32px;
   border: none;
   border-radius: 4px;
@@ -72,19 +66,13 @@ body {
   cursor: pointer;
 }
 
-.special-ul-item1-title,
-.special-ul-item2-title,
-.special-ul-item3-title,
-.special-ul-item4-title {
+.special-ul-item {
   font-size: 14px;
   line-height: normal;
   letter-spacing: 0.42px;
   text-transform: uppercase;
 }
-.special-ul-item1-signature,
-.special-ul-item2-signature,
-.special-ul-item3-signature,
-.special-ul-item4-signature {
+.special-ul-item-signature {
   color: var(--text-color-2);
   font-size: 14px;
   line-height: 24px;
@@ -97,35 +85,24 @@ body {
   font-size: 36px;
   letter-spacing: 1.08px;
 }
-.our-team-ul-item1-name,
-.our-team-ul-item2-name,
-.our-team-ul-item3-name,
-.our-team-ul-item4-name,
-.our-team-ul-item1-profession,
-.our-team-ul-item2-profession,
-.our-team-ul-item3-profession,
-.our-team-ul-item4-profession {
+.our-team-ul-item-name
+.our-team-ul-item-profession {
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.48px;
 }
-.our-team-ul-item1-profession,
-.our-team-ul-item2-profession,
-.our-team-ul-item3-profession,
-.our-team-ul-item4-profession {
+.our-team-ul-item-profession {
   color: var(--text-color-2);
   font-weight: 400;
 }
 
-.address {
+.footer {
   background: var(--main-bg-color);
 }
-.address > p {
+.footer > p {
   color: #fff;
 }
-.address-url,
-.email-url,
-.number-url {
+.address-url{
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   font-style: normal;
@@ -133,9 +110,7 @@ body {
   letter-spacing: 0.42px;
   transition: 0.5s;
 }
-.address-url:hover,
-.email-url:hover,
-.number-url:hover {
+.address-url:hover {
   color: #fff;
 }
 /*
