@@ -13,39 +13,30 @@ a {
 body {
   font-family: "Roboto";
 }
-.accent-logo {
-  color: var(--accent-color);
-  font-family: Raleway;
-  font-size: 26px;
-  letter-spacing: 0.78px;
-}
 .logo {
   font-family: Raleway;
   font-size: 26px;
   letter-spacing: 0.78px;
 }
-.nav-item-link,
-.list-item-link {
+.accent-logo {
   color: var(--accent-color);
+}
+.nav-item-link,
+.contacts-item-link {
+  color: var(--text-color-2);
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.28px;
+  transition: 0.5s;
 }
-.nav-ul:nth-child(2){
-  color: var(--main-text-color);
-}
-.contacts-list > li > a{
-  color: var(--text-color-2);
-  transition: all 0.5s ease;
-}
-.contacts-list:hover{
+.nav-item-link:hover,
+.contacts-item-link:hover {
   color: var(--accent-color);
 }
 
 .hero-section-title {
   color: #fff;
   text-align: center;
-  font-family: Roboto;
   font-size: 44px;
   font-weight: 900;
   line-height: 60px;
@@ -63,7 +54,6 @@ body {
   font-weight: 700;
   line-height: 30px;
   letter-spacing: 0.96px;
-  cursor: pointer;
 }
 
 .special-ul-item {
@@ -85,7 +75,7 @@ body {
   font-size: 36px;
   letter-spacing: 1.08px;
 }
-.our-team-ul-item-name
+.our-team-ul-item-name,
 .our-team-ul-item-profession {
   font-size: 16px;
   font-weight: 500;
@@ -110,7 +100,7 @@ body {
   letter-spacing: 0.42px;
   transition: 0.5s;
 }
-.address-url:hover {
+#real-address {
   color: #fff;
 }
 /*
