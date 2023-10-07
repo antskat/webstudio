@@ -67,6 +67,7 @@ body {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.42px;
+  text-transform: none;
 }
 
 .what-we-doing-title,
