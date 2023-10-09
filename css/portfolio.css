@@ -1,0 +1,16 @@
+.filters-btn {
+  border: none;
+  font-family: Roboto;
+  border-radius: 4px;
+  padding: 6px 22px;
+}
+.projects-list-item-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 1.08px;
+}
+.projects-list-item-signature {
+  color: #757575;
+  line-height: 1.875;
+  letter-spacing: 0.48px;
+}
