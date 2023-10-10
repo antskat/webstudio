@@ -3,6 +3,20 @@
   font-family: Roboto;
   border-radius: 4px;
   padding: 6px 22px;
+  background: gray;
+  color: #212121;
+  font-weight: 500;
+  line-height: 1.625;
+  letter-spacing: 0.48px;
+}
+.filters-btn:hover {
+  background: var(--accent-color);
+  color: #fff;
+  cursor: pointer;
+}
+.filters-btn:active {
+  background: var(--accent-color);
+  color: #fff;
 }
 .projects-list-item-title {
   font-size: 18px;
