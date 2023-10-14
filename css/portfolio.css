@@ -25,6 +25,7 @@
   padding-bottom: 95px;
 }
 .projects-list-item-title {
+  color: var(--main-text-color);
   font-size: 18px;
   line-height: 2;
   letter-spacing: 1.08px;
