@@ -1,6 +1,6 @@
-.filters {
+.projects {
   padding-top: 93px;
-  padding-bottom: 34px;
+  padding-bottom: 95px;
 }
 .filters-btn {
   border: none;
@@ -19,10 +19,6 @@
 .filters-btn:active {
   background: var(--accent-color);
   color: #fff;
-}
-
-.projects {
-  padding-bottom: 95px;
 }
 .projects-list-item-title {
   color: var(--main-text-color);
