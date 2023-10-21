@@ -2,6 +2,12 @@
   padding-top: 93px;
   padding-bottom: 95px;
 }
+.filters-navigate-ul {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
 .filters-btn {
   border: none;
   font-family: Roboto;
@@ -19,6 +25,11 @@
 .filters-btn:active {
   background: var(--accent-color);
   color: #fff;
+}
+.projects-list {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
 }
 .projects-list-item-title {
   color: var(--main-text-color);
