@@ -124,6 +124,9 @@ a {
   letter-spacing: 0.96px;
   margin-left: 477px;
 }
+.hero-section-buybtn:hover {
+  cursor: pointer;
+}
 
 .special {
   padding-top: 94px;
@@ -175,6 +178,11 @@ a {
   display: flex;
   gap: 30px;
   text-align: center;
+}
+.our-team-ul-item {
+  background-color: #fff;
+  padding-bottom: 30px;
+  border-radius: 0 0 4px 4px;
 }
 .our-team-ul-item-img {
   width: 270px;
