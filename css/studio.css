@@ -143,6 +143,7 @@ img {
   line-height: normal;
   letter-spacing: 0.42px;
   text-transform: uppercase;
+  flex-basis: calc((100% - 90px) / 4);
 }
 .special-ul-item-title {
   font-size: 14px;
