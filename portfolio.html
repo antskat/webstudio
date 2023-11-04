@@ -26,23 +26,32 @@
           <nav class="portfolio-navigate navigate">
             <ul class="portfolio-nav-ul nav-ul list">
               <li class="portfolio-nav-item nav-list-item">
-                <a href="./index.html" class="portfolio-nav-link nav-item-link link"
+                <a
+                  href="./index.html"
+                  class="portfolio-nav-link nav-item-link link"
                   >Студія</a
                 >
               </li>
               <li class="portfolio-nav-item nav-list-item">
-                <a style="color: var(--accent-color);" class="portfolio-nav-link nav-item-link link" href=""
+                <a
+                  style="color: var(--accent-color)"
+                  class="portfolio-nav-link nav-item-link link"
+                  href=""
                   >Портфоліо</a
                 >
               </li>
               <li class="portfolio-nav-item nav-list-item">
-                <a class="portfolio-nav-link nav-item-link link" link href="">Контакти</a>
+                <a class="portfolio-nav-link nav-item-link link" link href=""
+                  >Контакти</a
+                >
               </li>
             </ul>
           </nav>
           <ul class="contacts-list list">
             <li class="contacts-list-item">
-              <a class="contacts-item-link link" href="mailto:info@devstudio.com"
+              <a
+                class="contacts-item-link link"
+                href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
@@ -60,19 +69,29 @@
           <div class="container">
             <ul class="filters-navigate-ul list">
               <li class="filter-all">
-                <button class="filters-btn" type="button">Усі</button>
+                <button id="filterBtn" class="filters-btn active" type="button">
+                  Усі
+                </button>
               </li>
               <li class="filter-web-site">
-                <button class="filters-btn" type="button">Веб-сайти</button>
+                <button class="filters-btn" type="button">
+                  Веб-сайти
+                </button>
               </li>
               <li class="filter-appendices">
-                <button class="filters-btn" type="button">Додатки</button>
+                <button class="filters-btn" type="button">
+                  Додатки
+                </button>
               </li>
               <li class="filter-design">
-                <button class="filters-btn" type="button">Дизайн</button>
+                <button class="filters-btn" type="button">
+                  Дизайн
+                </button>
               </li>
               <li class="filter-marketing">
-                <button class="filters-btn" type="button">Маркетинг</button>
+                <button class="filters-btn" type="button">
+                  Маркетинг
+                </button>
               </li>
             </ul>
             <ul class="projects-list list">
@@ -169,9 +188,13 @@
       </main>
       <footer class="footer">
         <div class="container">
-          <p class="logo logo-footer"><span class="accent-logo">Web</span>Studio</p>
+          <p class="logo logo-footer">
+            <span class="accent-logo">Web</span>Studio
+          </p>
           <address class="address">
-            <a class="address-url link" href="https://goo.gl/maps/UjFSazJfsUKvz2yS8"
+            <a
+              class="address-url link"
+              href="https://goo.gl/maps/UjFSazJfsUKvz2yS8"
               >м. Київ, пр-т Лесі Українки, 26</a
             >
             <br /><a class="address-url link" href="mailto:info@devstudio.com"
@@ -184,5 +207,22 @@
         </div>
       </footer>
     </div>
+    <script>
+      // Get all filter buttons
+      const filterButtons = document.querySelectorAll('.filters-btn');
+
+      // Add click event listeners to the buttons
+      filterButtons.forEach(button => {
+          button.addEventListener('click', () => {
+              // Remove the "active" class from all buttons
+              filterButtons.forEach(btn => {
+                  btn.classList.remove('active');
+              });
+
+              // Add the "active" class to the clicked button
+              button.classList.add('active');
+          });
+      });
+  </script>
   </body>
 </html>

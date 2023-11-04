@@ -22,7 +22,7 @@
 .filters-btn:hover {
   cursor: pointer;
 }
-.filters-btn:active {
+.active {
   background: var(--accent-color);
   color: #fff;
 }
