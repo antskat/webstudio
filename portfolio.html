@@ -68,27 +68,27 @@
           <h2 class="visually-hidden">Our projects</h2>
           <div class="container">
             <ul class="filters-navigate-ul list">
-              <li class="filter-all">
-                <button id="filterBtn" class="filters-btn active" type="button">
+              <li class="filters-list-item">
+                <button style="padding: 6px 25px;" id="filterBtn" class="filters-btn active" type="button">
                   Усі
                 </button>
               </li>
-              <li class="filter-web-site">
+              <li class="filters-list-item">
                 <button class="filters-btn" type="button">
                   Веб-сайти
                 </button>
               </li>
-              <li class="filter-appendices">
+              <li class="filters-list-item">
                 <button class="filters-btn" type="button">
                   Додатки
                 </button>
               </li>
-              <li class="filter-design">
+              <li class="filters-list-item">
                 <button class="filters-btn" type="button">
                   Дизайн
                 </button>
               </li>
-              <li class="filter-marketing">
+              <li class="filters-list-item">
                 <button class="filters-btn" type="button">
                   Маркетинг
                 </button>
@@ -208,18 +208,12 @@
       </footer>
     </div>
     <script>
-      // Get all filter buttons
       const filterButtons = document.querySelectorAll('.filters-btn');
-
-      // Add click event listeners to the buttons
       filterButtons.forEach(button => {
           button.addEventListener('click', () => {
-              // Remove the "active" class from all buttons
               filterButtons.forEach(btn => {
                   btn.classList.remove('active');
               });
-
-              // Add the "active" class to the clicked button
               button.classList.add('active');
           });
       });

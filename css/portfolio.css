@@ -18,7 +18,6 @@
   font-weight: 500;
   line-height: 1.625;
   letter-spacing: 0.48px;
-  flex-basis: calc((100% - 24px) / 5);
 }
 .filters-btn:hover {
   cursor: pointer;
