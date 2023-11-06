@@ -32,7 +32,7 @@
   gap: 30px;
   flex-wrap: wrap;
 }
-.projects-item {
+.projects-list-item {
   flex-basis: calc((100% - 60px) / 3);
 }
 .projects-list-item-title {
