@@ -1,3 +1,12 @@
+.portfolio-nav-link::before {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  border-bottom: 4px solid var(--accent-color);
+  border-radius: 2px;
+  width: 72.20px;
+  top: 73px;
+}
 .projects {
   padding-top: 93px;
   padding-bottom: 95px;
