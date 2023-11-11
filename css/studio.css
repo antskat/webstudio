@@ -108,7 +108,10 @@ img {
 }
 
 .hero-section {
-  background: url('https://s3-alpha-sig.figma.com/img/1131/4362/dd953143a8a4d9f86ec8d71afc0e8103?Expires=1700438400&Signature=MOf~69QJk9huTvPDLlJvgxGTpe-iTYvs-g42OGDqdfv2f3vbNpswOVr37fSQ3Ft7hsF7dsF1lMUzDbhOfceakgYyLcbOodBu0SRa7wZhPQsXV5afThwGg1ZUijX0lTY8AyeU6Xz9xnh3BHhHp8UxiyfyjXTqph1IXut7buZ42NfJ1D5qKuPOOPGis9YtGBcS3Zf1YJi8SeF2ALomnyM-ayWsWK9qWc5T-krgnS4O65kphP2MpBr-YhjZni0EX5VE3jeali7kxabpkwlwO32pIgnPrd3uMijQhiVK-ADy4vodERUs4fwjZuyBws~8NhPHVHxznMckMh1qEXyyPwxvSA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'), rgba(47, 48, 58, 0.40) no-repeat;
+  background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url("https://s3-alpha-sig.figma.com/img/1131/4362/dd953143a8a4d9f86ec8d71afc0e8103?Expires=1700438400&Signature=MOf~69QJk9huTvPDLlJvgxGTpe-iTYvs-g42OGDqdfv2f3vbNpswOVr37fSQ3Ft7hsF7dsF1lMUzDbhOfceakgYyLcbOodBu0SRa7wZhPQsXV5afThwGg1ZUijX0lTY8AyeU6Xz9xnh3BHhHp8UxiyfyjXTqph1IXut7buZ42NfJ1D5qKuPOOPGis9YtGBcS3Zf1YJi8SeF2ALomnyM-ayWsWK9qWc5T-krgnS4O65kphP2MpBr-YhjZni0EX5VE3jeali7kxabpkwlwO32pIgnPrd3uMijQhiVK-ADy4vodERUs4fwjZuyBws~8NhPHVHxznMckMh1qEXyyPwxvSA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"),
+    no-repeat;
+
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -156,9 +159,28 @@ img {
   text-transform: uppercase;
   flex-basis: calc((100% - 90px) / 4);
 }
+.special-ul-item::before {
+  content: "";
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url('../images/antenna.svg');
+  width: 270px;
+  height: 120px;
+  background-position: center;
+}
+.special-ul-item:nth-child(2)::before {
+  background-image: url('../images/clock.svg');
+}
+.special-ul-item:nth-child(3)::before {
+  background-image: url('../images/diagram.svg');
+}
+.special-ul-item:nth-child(4)::before {
+  background-image: url('../images/astronaut.svg');
+}
 .special-ul-item-title {
   font-size: 14px;
   margin-bottom: 10px;
+  margin-top: 30px;
 }
 .special-ul-item-signature {
   color: var(--text-color-2);
@@ -172,7 +194,7 @@ img {
   padding-bottom: 94px;
 }
 .our-team {
-  background: #F5F4FA;
+  background: #f5f4fa;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -224,7 +246,7 @@ img {
   color: #fff;
   margin-bottom: 20px;
 }
-.address-url{
+.address-url {
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   font-style: normal;
