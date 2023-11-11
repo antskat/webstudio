@@ -4,7 +4,7 @@
   display: inline-block;
   border-bottom: 4px solid var(--accent-color);
   border-radius: 2px;
-  width: 72.20px;
+  width: 72.2px;
   top: 73px;
 }
 .projects {
@@ -43,6 +43,32 @@
 }
 .projects-list-item {
   flex-basis: calc((100% - 60px) / 3);
+  transition: all .5s;
+}
+.projects-list-item::before {
+  content: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi atque, quos dolores reiciendis provident quaerat illum iusto harum placeat rerum error commodi vero labore qui nemo. Impedit pariatur aut ducimus?";
+  display: none;
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  background-color: var(--accent-color);
+  opacity: 0.9;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.55;
+  letter-spacing: 0.54px;
+  padding: 63px 24px;
+  transition: all 1.5s;
+}
+.projects-list-item:hover {
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+}
+.projects-list-item:hover::before {
+  display: inline-block;
 }
 .projects-list-item-title {
   color: var(--main-text-color);

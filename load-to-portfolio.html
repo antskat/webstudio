@@ -53,9 +53,10 @@
         <div class="loader"></div>
     </div>
     <script>
+      var randomTimeout = Math.random() * (7000 - 600) + 600;
         setTimeout(() => {
             window.location.href = './portfolio.html';
-        }, 2000);
+        }, randomTimeout);
     </script>
   </body>
 </html>
