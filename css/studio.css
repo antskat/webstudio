@@ -7,10 +7,10 @@
 body {
   font-family: "Roboto";
 }
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   width: 0px;
   background: rgba(255, 255, 255, 0);
-}
+} */
 h1,
 h2,
 h3,
