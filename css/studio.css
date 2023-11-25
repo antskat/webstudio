@@ -96,6 +96,10 @@ img {
 .contacts-list {
   margin-left: auto;
 }
+.header-svg {
+  fill: #757575;
+  transition: 0.5s;
+}
 .nav-item-link,
 .contacts-item-link {
   color: var(--main-text-color);
@@ -106,10 +110,16 @@ img {
 }
 .contacts-item-link {
   color: var(--text-color-2);
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 .nav-item-link:hover,
 .contacts-item-link:hover {
   color: var(--accent-color);
+}
+.contacts-item-link:hover  .header-svg {
+  fill: var(--accent-color);
 }
 
 .hero-section {
@@ -523,68 +533,3 @@ img {
 .footer-link-item > svg {
   fill: #fff;
 }
-/*
-
-
-
-.section {
-  width: 98.7vw;
-  height: 600px;
-  flex-shrink: 0;
-  background: #2f303a;
-  margin-top: 30px;
-}
-.address {
-  width: 1600px;
-  height: 252px;
-  flex-shrink: 0;
-  background: #2f303a;
-}
-.a1 {
-  width: 231px;
-  height: 21px;
-  flex-shrink: 0;
-  color: #fff;
-  font-family: Roboto;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.42px;
-}
-.a2 {
-  color: rgba(255, 255, 255, 0.6);
-  font-family: Roboto;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.42px;
-}
-.a3 {
-  color: rgba(255, 255, 255, 0.6);
-  font-family: Roboto;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.42px;
-}
-ul.ul1 {
-  margin: 0; 
-  padding: 4px; 
-}
-ul.ul1 li {
-  display: inline; 
-  margin-right: 5px;
-  padding: 3px;
-}
-ul.ul2 {
-  margin: 0; 
-  padding: 4px; 
-}
-ul.ul2 li {
-  display: inline; 
-  margin-right: 5px;
-  padding: 3px;
-} */
