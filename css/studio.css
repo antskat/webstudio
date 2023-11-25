@@ -114,8 +114,8 @@ img {
 
 .hero-section {
   background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url("https://s3-alpha-sig.figma.com/img/1131/4362/dd953143a8a4d9f86ec8d71afc0e8103?Expires=1700438400&Signature=MOf~69QJk9huTvPDLlJvgxGTpe-iTYvs-g42OGDqdfv2f3vbNpswOVr37fSQ3Ft7hsF7dsF1lMUzDbhOfceakgYyLcbOodBu0SRa7wZhPQsXV5afThwGg1ZUijX0lTY8AyeU6Xz9xnh3BHhHp8UxiyfyjXTqph1IXut7buZ42NfJ1D5qKuPOOPGis9YtGBcS3Zf1YJi8SeF2ALomnyM-ayWsWK9qWc5T-krgnS4O65kphP2MpBr-YhjZni0EX5VE3jeali7kxabpkwlwO32pIgnPrd3uMijQhiVK-ADy4vodERUs4fwjZuyBws~8NhPHVHxznMckMh1qEXyyPwxvSA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"),
-    no-repeat;
+  url(../images/bg.png)
+  no-repeat;
 
   padding-top: 200px;
   padding-bottom: 200px;
