@@ -81,23 +81,25 @@
 }
 .img-container {
   max-height: 294px;
+  position: relative;
+  overflow: hidden;
 }
 .hover-content {
   background-image: linear-gradient(
     rgba(33, 150, 243, 0.9),
     rgba(33, 150, 243, 0.9)
   );
-  position: relative;
-  top: -294px;
+  height: 294px;
+  width: 370px;
+  position: absolute;
   color: #fff;
   padding: 63px 24px;
   font-size: 18px;
   line-height: 1.55;
   letter-spacing: 0.54px;
   transition: all 0.5s;
-  display: none;
 }
 .projects-list-content:hover .hover-content,
 .projects-list-content:focus .hover-content {
-  display: block;
+  transform: translateY(-100%); 
 }
