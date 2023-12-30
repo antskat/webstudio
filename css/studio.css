@@ -118,7 +118,7 @@ img {
 .contacts-item-link:hover {
   color: var(--accent-color);
 }
-.contacts-item-link:hover  .header-svg {
+.contacts-item-link:hover .header-svg {
   fill: var(--accent-color);
 }
 
@@ -536,7 +536,7 @@ img {
 }
 .footer-link-item > svg {
   fill: #fff;
-} 
+}
 .form-footer {
   margin-left: 23px;
 }
@@ -576,7 +576,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;  
+  gap: 10px;
   transition: 0.3s;
 }
 .form-footer-btn::after {
@@ -594,4 +594,24 @@ img {
 .form-footer-btn:active {
   transform: scale(0.9);
   transition: 0s;
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 16px;
+  height: 15px;
+  border-radius: 2px;
+  border: 1px solid #333;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+}
+input[type="checkbox"]:checked {
+  background-color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+}
+input[type="checkbox"]:checked::after {
+  content: url("data:image/svg+xml;charset=UTF-8,<svg style='position: relative; bottom: 2px; left: 1px' xmlns='http://www.w3.org/2000/svg' width='13' height='10' fill='white' viewBox='0 0 13 10'><path d='M1.95703 4.75166L1.88825 4.68604L1.81923 4.75141L0.93123 5.59258L0.854858 5.66492L0.930974 5.73753L4.42671 9.07236L4.49574 9.1382L4.56476 9.07236L12.069 1.91352L12.1449 1.84116L12.069 1.76881L11.1873 0.927644L11.1183 0.861826L11.0493 0.927611L4.49577 7.17353L1.95703 4.75166Z'/></svg>");
 }
